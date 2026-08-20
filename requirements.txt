@@ -1,0 +1,5 @@
+customtkinter>=5.2.2
+playwright>=1.44.0
+deepgram-sdk>=3.2.7
+Pillow>=10.3.0
+pyinstaller>=6.6.0

@@ -1,0 +1,26 @@
+# PyInstaller build output (the exe ships as a GitHub Release asset)
+build/
+dist/
+*.manifest
+
+# Bundled ffmpeg/ffprobe binaries (~175 MB) - fetch these yourself, see README
+assets/*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime config - may contain Deepgram / LLM API keys
+config.json
+*.env
+
+# Playwright browser profile / automation state
+.playwright/
+user_data/
+
+# OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store
